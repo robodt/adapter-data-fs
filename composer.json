@@ -1,0 +1,30 @@
+{
+	"name": "robodt/adapter-data-fs",
+	"type": "robodt-adapter",
+	"description": "Robodt File System Adapter",
+	"keywords": ["robodt", "cms", "markdown", "filesystem", "file-based", "adapter", "robodt-adapter", "robodt-data-adapter"],
+	"homepage": "http://robodt.io",
+	"authors": [
+		{
+			"name": "Tim van Bergenhenegouwen",
+			"email": "tim@slurfhondje.nl",
+			"homepage": "http://zomnium.com",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/robodt/adapter-data-fs"
+		}
+	],
+	"require": [
+		{
+			"php": ">=5.3",
+			"robodt/robodt": "0.1.*"
+		}
+	],
+	"autoload": {
+		"psr-0": { "Robodt/Adapter": "src/" }
+	}
+}
